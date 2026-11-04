@@ -3,7 +3,33 @@
 Target: `https://h4xscripts.xyz/loader`  
 Scope: **static analysis only**. Nothing in this folder executes the loader inside Roblox or a real executor.
 
-## Result
+## Stage 2 — fully decoded (81/81 prototypes)
+
+The inner VM layer has now been completely broken open:
+
+| File | Meaning |
+|---|---|
+| `h4x/out/loader_deobfuscated.lua` | **Readable Lua reconstruction of the whole loader** (~1,500 lines). Start here. |
+| `h4x/HOW_IT_WORKS.md` | Plain-language explanation (Persian) of the protection layers and the loader logic. |
+| `h4x/out/prototypes/proto01..81.json` | Decrypted bytecode of every prototype (constants, opcodes, operands, upvalues). |
+| `h4x/out/stage2_keys.json` | Derived keys: `D3`, `CBfl`, `iPq`, and the verified gate key. |
+| `h4x/decode_stage2.py` | Full stage-2 decoder: container → D3 → gate/CBfl → per-prototype route keys. |
+| `h4x/decompile.py` | Bytecode → structured Lua reconstructor. |
+| `h4x/vm_stage2.py` | Python VM + Roblox mock, used only to compute the gate key. |
+| `h4x/disasm.py` | Annotated disassembler for the custom opcode set. |
+
+Reproduce:
+
+```bash
+cd h4x
+python3 decode_stage2.py     # writes out/prototypes/*.json + out/stage2_keys.json
+python3 decompile.py         # writes out/loader_deobfuscated.lua
+```
+
+The payload is the **H4xScripts loader GUI + key system** (keysystem.pro). See
+`HOW_IT_WORKS.md` for the config, game registry, UI helpers and the full key flow.
+
+## Result (outer layer)
 
 The uploaded raw loader (`h4x/raw_loader.lua`, 395,823 bytes) has been decoded. The decoded artifacts are in `h4x/out/`:
 

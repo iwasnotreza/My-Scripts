@@ -1,0 +1,62 @@
+{
+ "idx": 28,
+ "hdr": {
+  "TwT": 1376340963,
+  "vnY": 0,
+  "_EV": 1,
+  "pu": 4,
+  "atmo": 0,
+  "lH": 17,
+  "cgjl": 240,
+  "TP": 212,
+  "jsuZ": 1,
+  "Gr": 92,
+  "BM4": 1
+ },
+ "mode": 0,
+ "rUe": 58496,
+ "key": "099d632effdc0dd95035a2c27adeefc3f4dfc76da8f5ec797a742fcd970dea24",
+ "parent": 27,
+ "constants": [
+  "Destroy"
+ ],
+ "opcodes": [
+  187,
+  49,
+  130,
+  93
+ ],
+ "A": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "B": [
+  0,
+  1,
+  2,
+  1
+ ],
+ "C": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "upvalues": [
+  [
+   0,
+   0
+  ]
+ ],
+ "numparams": 0,
+ "vararg": false,
+ "viz": 1,
+ "localinfo": [
+  [
+   1,
+   319
+  ]
+ ]
+}

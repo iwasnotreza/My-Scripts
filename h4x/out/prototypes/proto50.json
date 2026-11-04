@@ -1,0 +1,62 @@
+{
+ "idx": 50,
+ "hdr": {
+  "TwT": 3135248230,
+  "vnY": 0,
+  "_EV": 2,
+  "pu": 4,
+  "atmo": 0,
+  "lH": 95,
+  "cgjl": 16,
+  "TP": 216,
+  "jsuZ": 1,
+  "Gr": 96,
+  "BM4": 1
+ },
+ "mode": 0,
+ "rUe": 11154,
+ "key": "36e5e2e4164ff6a489219ca7f664b7fdb1b55a00745bf89e7f7fd8acf3b34b57",
+ "parent": 49,
+ "constants": [
+  "setclipboard"
+ ],
+ "opcodes": [
+  102,
+  187,
+  130,
+  93
+ ],
+ "A": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "B": [
+  0,
+  0,
+  2,
+  1
+ ],
+ "C": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "upvalues": [
+  [
+   1,
+   0
+  ]
+ ],
+ "numparams": 0,
+ "vararg": false,
+ "viz": 2,
+ "localinfo": [
+  [
+   1,
+   1399
+  ]
+ ]
+}
