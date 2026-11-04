@@ -1,0 +1,32 @@
+{
+  "root_key_hex": "8701315949d7f75c871e1d49aea23c98059421b8a5415eb421fde4cdeaede4e6",
+  "stage1_key_hex": "3cf8a7e9c496bfd915f8b3cb18cbda53c8485f1553972822ab73fc9e9af92140",
+  "stage1_key2_hex": "aae9a2a6a94df052e7afd40faa8eab1dc037c34ab1c426786906bdd1f433bf4b",
+  "stage2_key_hex": "8069a6360aacc72c880ee37e05e9aef54ca173aec9bdabf987b0e3fe917f145a",
+  "container_sha256": "e9789c4f72f131982e2f2683eb7c1589b3304d95ce8cb7a3f9c180d361796d09",
+  "stage1_sha256": "af8487eb797ff41f93dbc0a815477daf83d07a0ed2f0cba79d4f1602f7e9b4f4",
+  "stage2_sha256": "fe90320309cff1994bc9bda37a7460b6383e4b834cc0a9ae098acb169d807eec",
+  "alphabet": "IpePMLU804HcaZVOQCgyo2bTuE5fNhA/Fr1lDSR7vkjqist6J+Xn39BzwYmWGxKd",
+  "params": {
+    "records": {
+      "record_count": 104,
+      "tag1": 106,
+      "tag2": 80,
+      "max1": 59,
+      "max2": 45,
+      "count1": 59,
+      "count2": 45,
+      "total1": 158550,
+      "total2": 116138
+    },
+    "stage1_len": 212860,
+    "freq_sum": 4096,
+    "ds_hex": {
+      "enc": "046ea8547a444029da19b5cc341fec98",
+      "mac": "181f27ebd1c5b1e97abfe1b495eea842",
+      "tag": "5d3c84624a33f6c12df521bacfe722c9",
+      "stage1_key": "a83f9b0210570a8067c6a7ca93715ff3",
+      "stage2_key": "cf5dc50b03f6022a12a1053d4e05540f"
+    }
+  }
+}

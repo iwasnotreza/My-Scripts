@@ -1,4 +1,3 @@
 __pycache__/
 *.pyc
-raw_loader.lua
-out/
+wrapper_tail.txt
