@@ -1,0 +1,75 @@
+{
+ "idx": 76,
+ "hdr": {
+  "TwT": 55737357,
+  "vnY": 0,
+  "_EV": 3,
+  "pu": 6,
+  "atmo": 0,
+  "lH": 13,
+  "cgjl": 87,
+  "TP": 281,
+  "jsuZ": 2,
+  "Gr": 153,
+  "BM4": 2
+ },
+ "mode": 0,
+ "rUe": 57745,
+ "key": "d63d8c65ccccf1f45eb858499badf732097acddc175696ba71034361a01b2118",
+ "parent": 18,
+ "constants": [
+  "DiscordUrl",
+  "Discord link copied!"
+ ],
+ "opcodes": [
+  187,
+  187,
+  31,
+  127,
+  130,
+  93
+ ],
+ "A": [
+  0,
+  1,
+  1,
+  2,
+  0,
+  0
+ ],
+ "B": [
+  0,
+  1,
+  1,
+  1,
+  3,
+  1
+ ],
+ "C": [
+  0,
+  0,
+  490,
+  0,
+  1,
+  0
+ ],
+ "upvalues": [
+  [
+   1,
+   130
+  ],
+  [
+   1,
+   7
+  ]
+ ],
+ "numparams": 0,
+ "vararg": false,
+ "viz": 3,
+ "localinfo": [
+  [
+   1,
+   1688
+  ]
+ ]
+}
